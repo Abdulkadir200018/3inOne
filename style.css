@@ -1,0 +1,202 @@
+ #logo{
+    display: flex;
+    margin-left: auto;
+    margin-right: 620px;
+    width: 200px;
+    height: 100px;
+    margin-top: 0; 
+    }
+
+.menu-list {
+    background-color: rgb(3, 69, 112);
+    padding: 30px;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    }
+    
+    a  { 
+        text-decoration: none;  
+        }
+    a:hover {
+            text-decoration: underline;
+        }
+    p:hover {
+        text-decoration: none;
+    }
+    .menu {
+        display: inline;
+        padding: 0px 10px 0px 10px;
+        text-align: left;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-decoration: white;
+        position: relative;
+        right: 200px;
+    }
+    .menu:first-child {
+        float: left;
+        margin-left: 350px;
+        height: 20px;
+    }
+    .menu:hover{
+        text-decoration: white;
+    }
+#veel {
+    background: url(https://www.rijksoverheid.nl/binaries/widescreen/content/gallery/rijksoverheid/attentie-afbeeldingen/home/2019/springkussen.jpg);  
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    margin-top: 0%;
+      }
+.middle {
+    background-color: white;
+    text-align: left;
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+    left: 300px;
+    margin-top: 15px;
+      }
+.input {
+    display: inline;
+    padding: 20px;
+    justify-content: space-between;
+    position: absolute;
+    right: 100px;
+   
+}
+#box-b {
+    display: inline-flex;
+    background-color: rgb(219, 222, 223);
+    width: 100%; 
+   
+}
+.box-item { 
+    width: 300px; 
+    height: 200px; 
+    float: left;
+    padding:  20px;
+    text-align: left;
+    font-size: 20px;
+}
+h2 {
+    font-size: 26px;
+    color: rgb(0, 119, 255);
+}
+li:first-child { width: 300px; height: 200px;}
+#three-items {
+    display: inline-flex;
+
+}
+.with-image {
+    width: 400px; 
+    height: 250px;
+    float: right; 
+    padding: 30px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 0.1px;
+    border-top-color: rgb(4, 43, 43);
+}
+p:hover {
+    text-decoration-style: none;
+  }
+#news {
+    display: inline-flex;
+    border-top-style: solid;
+    border-top-width: 0.08px;
+    margin-top: 150px;
+}
+.news-type {
+    width: 400px; 
+    height: 250px;
+    float: left; 
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+}
+h3.news-type:hover {
+    color: grey;
+  }
+#flex-box {
+    display: inline-flex;
+} 
+#pink {
+    color: rgb(151, 9, 52);
+}   
+.t-box {
+    width: 350px; 
+    height: 220px;
+    float: left;
+    margin: 10px;
+    margin-top: 0px; 
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(119, 122, 136);
+}
+.t-box:hover{
+    text-decoration: none;
+    text-decoration-style:none;
+}
+#about {
+    display:inline-flex;
+    background-color: rgb(7, 117, 180);
+    width: 100%;
+    margin-top: 50px;
+} 
+.info {
+    display: inline-flex;
+    margin-left: 500px;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+
+}
+.info-n {
+    font-size: 28px;
+    font-style: italic;
+    float: left;
+}
+.info-m {
+    width: 200px;
+    margin-left: 20px;
+}
+.info-list:first-child:first-child {
+    height: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: all;
+    height: 50px;
+    margin-left: 500px;
+}
+.foot {
+    display: inline-flex;
+    margin: 10px;
+}
+.lag {
+    display:inline-flex;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+.lag:first-child {
+    height: 20px;
+    width: 50px;
+}
